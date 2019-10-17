@@ -55,6 +55,9 @@
       true,
       {
         "allow": [],
+        "lazyLoad": [
+          "lazy",
+        ],
         "depConstraints": [
           {
             "sourceTag": "*",

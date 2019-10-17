@@ -7,6 +7,6 @@
   "exclude": ["src/test-setup.ts", "**/*.spec.ts"],
   "include": [
     "**/*.ts",
-    "../../../libs/lazy/src/index.ts"
+    "../../../libs/lazy/src/lib/lazy-element/lazy-element.module.ts"
   ]
 }
