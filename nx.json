@@ -13,6 +13,9 @@
     },
     "lazy-load-e2e": {
       "tags": []
+    },
+    "lazy": {
+      "tags": []
     }
   }
 }
