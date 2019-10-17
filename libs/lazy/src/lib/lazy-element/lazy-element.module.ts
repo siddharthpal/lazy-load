@@ -6,6 +6,7 @@ import { LazyCustomElementComponent } from '../lazy-custom-element/lazy-custom-e
   declarations: [LazyCustomElementComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [LazyCustomElementComponent]
 })
 export class LazyElementModule { }
