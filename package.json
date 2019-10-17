@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
+    "build:elements": "ng build lazy-load --configuration=production --aot --optimization --buildOptimizer --output-hashing none",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",

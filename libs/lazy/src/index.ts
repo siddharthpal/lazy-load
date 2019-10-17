@@ -1,0 +1,1 @@
+export * from './lib/lazy-element/lazy-element.module';

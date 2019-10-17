@@ -17,6 +17,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+             "lazyModules": [
+              "libs/lazy/src/lib/lazy-element/lazy-element.module"
+            ],
             "outputPath": "dist/apps/lazy-load",
             "index": "apps/lazy-load/src/index.html",
             "main": "apps/lazy-load/src/main.ts",
