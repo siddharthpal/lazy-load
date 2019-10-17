@@ -1,6 +1,15 @@
 # Issue Repro
-Run `npm run build:elements` to see the following issue
+Run `npm run start` to see the following issue
 ```
-ERROR in ./$$_lazy_route_resource lazy namespace object
-Module not found: Error: Can't resolve '/Users/palsiddh/Documents/bitbucket/lazy-load/libs/lazy/src/lib/lazy-element/lazy-element.module.ngfactory.js' in '/Users/palsiddh/Documents/bitbucket/lazy-load/apps/lazy-load/$$_lazy_route_resource'
+Uncaught TypeError: Object(...) is not a function
+    at vendor.js:139874
+    at Module.../../node_modules/ngx-loadable/fesm5/ngx-loadable.js (vendor.js:139876)
+    at __webpack_require__ (runtime.js:84)
+    at Module../src/app/app.module.ts (main.js:13778)
+    at __webpack_require__ (runtime.js:84)
+    at Module../src/main.ts (main.js:13934)
+    at __webpack_require__ (runtime.js:84)
+    at Object.0 (main.js:13958)
+    at __webpack_require__ (runtime.js:84)
+    at checkDeferredModules (runtime.js:46)
 ```
